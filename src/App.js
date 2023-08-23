@@ -46,7 +46,7 @@ function App() {
       <Router>
         <div className="flex-column justify-flex-start min-100-vh">
           <Nav />
-          <div className="container">
+          <div>
             <Routes>
               <Route path="/" element={<Main />} />
               <Route path="/Lodging" element={<Lodging />} />
